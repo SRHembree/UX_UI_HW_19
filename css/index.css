@@ -1,0 +1,624 @@
+/* Nav Styles */
+* {
+    box-sizing: border-box;
+}
+.logo img {
+     height: 90px; 
+     padding: 5px;
+     width: 150px;
+     object-fit: cover;
+     background-repeat: no-repeat;
+     background-position: left;
+     text-align: center;
+     margin-left: 40px;
+}
+body {
+    height: 125vh;
+    background-size: cover;
+    font-family: 'PT-Sans', sans-serif;
+    margin-top: 100px;
+    padding: 30px;
+}
+.nav {
+    background-color: #0D1D21;
+    position: fixed;
+    height: 100px;
+    top: 0;  
+    left: 0; 
+    width: 100%; 
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between;  */
+    z-index: 1;
+}
+.navbar {
+    margin: 20px;
+    float: right; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#hamburger {
+    background-color: transparent;
+    display: none;
+    border: 0;
+    color: white;
+    font-size: 40px;
+}
+.bootuns {
+    display: block; 
+    font-size: 22px; 
+    text-decoration: none; 
+    padding: 14px 16px; 
+    border: 1px solid white; 
+    color: white; 
+    width: 200px;  
+    margin-left: auto; 
+    margin-top: 5px; 
+    text-align: center; 
+    background-color: #3A7673; 
+}
+.icon {
+    border: 0;
+    padding: 30px;
+    background-color: transparent;
+    color: white;
+    font-size: 40px;
+    display: block; 
+    position: absolute; 
+    right: 0px; 
+    bottom: 0px; 
+}
+/* Hero Image Styles */
+.mainContent {
+    width: 100%;
+    height: auto; 
+    overflow: auto; 
+}
+.border {
+    margin: auto;
+    width: 100%;
+    padding: 15px 30px;
+    height: auto; 
+    background-color: #CEDDDC;
+    overflow: auto; 
+}
+.content {
+    position: relative; 
+    width: 100%; 
+    height: 50%; 
+}
+.content img {
+    height: auto; 
+    padding: 10px 15px;
+    width: 50%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    float: left;
+}
+.title {
+    font-family: 'Sen', sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #DC423C;
+    padding: 0px 15px; 
+}
+.content p {
+    padding: 0px 15px; 
+    font-family: "PT Sans";
+    font-style: normal;
+    font-size: 20px;
+    color: #3A7673;
+}
+.savingThrow {
+    width: 100%; 
+}
+.wrapper1 p {
+    padding: 0px 15px; 
+    font-family: "PT Sans";
+    font-style: normal;
+    font-size: 20px;
+    color: #3A7673;
+}
+.smallerImages {
+    position: relative; 
+    width: 100%; 
+    height: 50%; 
+}
+.smallerImages img {
+    height: 150px; 
+    padding: 10px;
+    width: 50%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 18px;
+    float: left; 
+}
+.caption {
+    display: block; 
+    background-color: #ECC19B; 
+    padding: 10px; 
+}
+.userFlow, .DOEGroup, .siteMap, .styleGuide {
+    vertical-align: top; 
+    text-align: center; 
+    width: 50%;  
+    float: left; 
+    margin: 10px 0px; 
+    border: 1px solid black; 
+    background-color: #ECC19B;
+}
+/* Skills Styles */
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.skillz {
+    flex: 4;
+    margin-right: 20px;
+}
+.uiskillz {
+    flex: 4;
+    margin-right: 20px;
+}
+.codingSkillz {
+    flex: 4;
+    margin-right: 20px;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 15px;
+    width: 100%;
+    color: #ffffff;
+    float: left;
+    border: 1px solid #ddd;
+    font: 22px/1.4 "Gill Sans", sans-serif;
+}
+th, td {
+    text-align: center;
+    padding: 8px 12px;
+    border-bottom: 1px solid #cecfd5;
+}
+thead {
+    background: #395870;
+    color: #fff;
+}
+td {
+    border-bottom: 1px solid #cecfd5;
+    border-right: 1px solid #cecfd5;
+}
+td:first-child {
+    border-left: 1px solid #cecfd5;
+}
+/* UX Skills Section */
+#Figma {
+    background-color: #709189;
+    color: #ffffff;
+    padding: 5px;
+}
+#adobeXD {
+    background-color: #ECC19B;
+    color: #000000;
+    padding: 5px;
+}
+#Personas {
+    background-color: #ECC19B;
+    color: #000000;
+    padding: 5px;
+}
+#usabilityTesting {
+    background-color: #3A7673;
+    color: #ffffff;
+    padding: 5px;
+}
+#Wireframing {
+    background-color: #3A7673;
+    color: #ffffff;
+    padding: 5px;
+}
+#Prototyping {
+    background-color: #709189;
+    color: #ffffff;
+    padding: 5px; 
+    margin-top: 15px; 
+}
+.uxSkills {
+    padding: 10px;
+    margin: 10px;
+    background-color:none;
+    color: white;
+}
+.skillz { 
+    position: relative; 
+    display: flex;
+    padding: 10px;; 
+}
+.skillPicture {
+    width: 80%; 
+    height: 60px; 
+    position: absolute;
+    bottom: 75px; 
+    left: 10%; 
+}
+.linebreakformat {
+    width: 80%; 
+    height: 2px; 
+    position: absolute; 
+    bottom: 60px; 
+    left: 10%; 
+}
+.UXLabel {
+    position: absolute; 
+    bottom: 20px; 
+    left: 0px; 
+    width: 100%; 
+    text-align: center; 
+}
+.uxSkills img {
+height: 100%; 
+padding: 5px;
+background-repeat: no-repeat;
+border-radius: 0px;
+float: left;
+}
+.uxSkills::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* UI Skills Section */
+#InVision {
+    background-color: #ECC19B;
+    color: #000000;
+    padding: 5px;
+}
+#Illustrator {
+    background-color: #709189;
+    color: #ffffff;
+    padding: 5px;
+}
+#interactiveDesign {
+    background-color: #3A7673;
+    color: #ffffff;
+    padding: 5px;
+    width: flex;
+    /* margin-left: auto; 
+    margin-right: auto;  */
+}
+#styleGuide {
+    background-color: #709189;
+    color: #ffffff;
+    padding: 5px;
+}
+#Trello {
+    background-color: #ECC19B;
+    color: #000000;
+    padding: 5px;
+}
+.uiskillz { 
+    position: relative; 
+    display: flex;
+    /* padding-bottom: 50px;  */
+}
+.uiPicture {
+    width: 100%; 
+    position: absolute;
+    bottom: 0px; 
+    left: 0px; 
+    /* border: 0px; */
+    /* display: flex; */
+}
+.UILabel {
+    position: absolute; 
+    bottom: 0; 
+    left: 50%; 
+}
+.uiSkills img {
+height: 100%; 
+padding: 5px;
+background-repeat: no-repeat;
+border-radius: 0px;
+float: left;
+}
+.uiskills::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* FrontendCoding Skills Section */
+#HTML5 {
+    background-color: #3A7673;
+    color: #ffffff;
+    padding: 5px;
+}
+#responsiveDesign {
+    background-color: #709189;
+    color: #ffffff;
+    padding: 5px;
+}
+#javajQuery {
+    background-color: #3A7673;
+    color: #ffffff;
+    padding: 5px;
+}
+#css {
+    background-color: #ECC19B;
+    color: #000000;
+    padding: 5px;
+}
+#Github {
+    background-color: #ECC19B;
+    color: #000000;
+    padding: 5px;
+}
+#visualStudio {
+    background-color: #3A7673;
+    color: #ffffff;
+    padding: 5px;
+}
+.codingSkillz { 
+    position: relative; 
+    display: flex;
+    /* padding-bottom: 50px;  */
+}
+.codingPicture {
+    width: 100%; 
+    position: absolute;
+    bottom: 0px; 
+    left: 0px; 
+    /* border: 0px; */
+    /* display: flex; */
+}
+.frontendCodingLabel {
+    position: absolute; 
+    bottom: 0; 
+    left: 50%; 
+}
+.frontendCoding img {
+height: 100%; 
+padding: 5px;
+background-repeat: no-repeat;
+border-radius: 0px;
+float: left;
+}
+.frontendCoding::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+}
+/* Case Study Styles */
+* {
+    box-sizing: border-box;
+}
+.takeovertheworld {
+    margin-left: -5px;
+    margin-right: -5px;
+    /* padding-bottom: 300px;  */
+    height: auto; 
+    position: relative; 
+}
+.takeovertheworld::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.takeovertheworld p {
+    padding: 0px 15px; 
+    font-family: "PT Sans";
+    font-style: normal;
+    font-size: 20px;
+    color: #3A7673;
+}
+.covidCase {
+    width: 100%;
+    height: auto;
+    padding: 0px 15px;
+    float: left;
+    /* background-color: magenta; */
+}
+.covidCase h2 {
+    font-family: "PT Sans";
+    font-size: 20px;
+    color: #3A7673;
+}
+.covidCase p {
+    font-family: "PT Sans";
+    font-size: 18px;
+    color: #0D1D21;
+}
+.covidCase h3 {
+    font-family: "Gill Sans";
+    font-size: 18px;
+    font-style: italic;
+    color: #0D1D21;
+}
+.covidCase img {
+    width: 50%;
+    height: auto; 
+    padding: 5px 15px; 
+    float: left; 
+}
+.doeCase {
+    width: 100%;
+    height: auto;
+    padding: 0px 15px;
+    float: left;
+    /* background-color: blueviolet; */
+}
+.doeCase h2 {
+    font-family: "PT Sans";
+    font-size: 20px;
+    color: #3A7673;
+}
+.doeCase p {
+    font-family: "PT Sans";
+    font-size: 18px;
+    color: #0D1D21;
+}
+.doeCase h3 {
+    font-family: "Gill Sans";
+    font-size: 18px;
+    font-style: italic;
+    color: #0D1D21;
+}
+.doeCase img {
+    width: 50%;
+    height: auto; 
+    padding: 5px 15px; 
+    float: left; 
+}
+.lfpCase {
+    width: 100%;
+    height: auto;
+    padding: 0px 15px;
+    float: left;
+    /* background-color: yellow; */
+}
+.lfpCase h2 {
+    font-family: "PT Sans";
+    font-size: 20px;
+    color: #3A7673;
+}
+.lfpCase p {
+    font-family: "PT Sans";
+    font-size: 18px;
+    color: #0D1D21;
+}
+.lfpCase h3 {
+    font-family: "Gill Sans";
+    font-size: 18px;
+    font-style: italic;
+    color: #0D1D21;
+}
+.lfpCase img {
+    width: 50%;
+    height: auto; 
+    padding: 5px 15px; 
+    float: left; 
+}
+.codingCase {
+    width: 100%;
+    height: auto;
+    padding: 0px 15px;
+    padding-bottom: 150px; 
+    float: left;
+    /* background-color: aqua; */
+}
+.codingCase h2 {
+    font-family: "PT Sans";
+    font-size: 20px;
+    color: #3A7673;
+}
+.codingCase p {
+    font-family: "PT Sans";
+    font-size: 18px;
+    color: #0D1D21;
+}
+.codingCase h3 {
+    font-family: "Gill Sans";
+    font-size: 18px;
+    font-style: italic;
+    color: #0D1D21;
+}
+.codingCase img {
+    width: 50%;
+    height: auto; 
+    padding: 5px 15px; 
+    float: left; 
+}
+/* Footer Styles */
+.footer {
+    background-color: #0D1D21;
+    position: fixed;
+    bottom: 0;  
+    width: 100vw; 
+    left: 50%; 
+    right: 50%; 
+    margin-left: -50vw; 
+    margin-right: -50vw; 
+} 
+.wrapper {
+    height: 140px;
+    color: white;
+}
+.logo2 {
+    height: 90px; 
+    padding: 5px;
+    width: 150px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    text-align: center;
+    margin-left: 40px;
+    position: absolute; 
+    left: 0px; 
+    bottom: 40px; 
+}
+.footerTitle {
+    font-size: 27px; 
+    padding-left: 40px;
+    word-spacing: 10px;
+    position: absolute; 
+    left: 10px; 
+    bottom: 0px; 
+    font-family: "PT Sans"; 
+}
+.socialMedia {
+    height: 65px; 
+    padding: 5px;
+    width: 65px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    text-align: center;
+    margin-left: 40px;
+    display: block; 
+}
+.GitHub { 
+    position: absolute; 
+    bottom: 20px; 
+    right: 150px; 
+}
+.LinkedIn {
+    position: absolute; 
+    bottom: 20px; 
+    right: 80px; 
+}
+.FaceBook {
+    position: absolute; 
+    bottom: 20px; 
+    right: 10px; 
+}
+#copyright {
+    position: absolute; 
+    bottom: 5px; 
+    right: 5px; 
+}
+.links {
+    color: white;
+}
+.textLinks {
+    padding: 25px 0; 
+    position: absolute; 
+    left: 200px; 
+    bottom: 60px; 
+}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    .content img {
+        width: 100%; 
+    }
+    .smallerImages img {
+        width: 100%; 
+        height: 100%; 
+    }
+    .userFlow, .DOEGroup, .siteMap, .styleGuide {
+        width: 100%; 
+    }
+}
