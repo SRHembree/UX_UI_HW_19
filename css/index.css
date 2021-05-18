@@ -21,7 +21,7 @@ body {
     padding: 30px;
 }
 .nav {
-    background-color: #0D1D21;
+    background-color: #709189;
     position: fixed;
     height: 100px;
     top: 0;  
@@ -58,6 +58,19 @@ body {
     margin-top: 5px; 
     text-align: center; 
     background-color: #3A7673; 
+}
+.bootuns1 {
+    display: block; 
+    font-size: 22px; 
+    text-decoration: none; 
+    padding: 14px 16px; 
+    border: 1px solid white; 
+    color: white; 
+    width: 200px;  
+    margin-left: auto; 
+    margin-top: 5px; 
+    text-align: center; 
+    background-color: #E5584C; 
 }
 .icon {
     border: 0;
