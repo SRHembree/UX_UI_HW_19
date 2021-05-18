@@ -13,16 +13,24 @@ function myFunction() {
         x.style.display = "block";
     }
 }
-$(document).ready(function(){
-    $("a").on('click', function(event) {
-        if (this.hash !== "") {
-            event.preventDefault();
-            var hash = this.hash;
-            $('html, body').animate({
-                scrollTop: $(hash).offset().top
-            },800,function(){
-                window.location.hash = hash;
-            });
-         };
-    });
-});
+
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    //Get the button:
+  var mybutton = document.getElementById("myBtn");
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } 
+  else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTo({ top: 0, behavior: 'smooth' }); // For Safari
+    document.documentElement.scrollTo({ top: 0, behavior: 'smooth' }); // For Chrome, Firefox, IE and Opera
+}
