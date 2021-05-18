@@ -635,8 +635,8 @@ float: left;
     color: white;
 }
 .textLinks {
-    padding: 25px 0; 
-    position: absolute; 
+    padding: 0px 10px 0px 0px; 
+    position: fixed; 
     left: 200px; 
     bottom: 60px; 
 }
